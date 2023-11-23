@@ -1,0 +1,15 @@
+/* Add this CSS to your stylesheets */
+
+.user-profile {
+    width: 40px; /* Adjust the width of the image */
+    height: 40px; /* Adjust the height of the image */
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Ensures the image stays within the circular boundaries */
+    margin-right: 10px; /* Add margin for spacing */
+  }
+  
+  .user-profile img {
+    width: 100%; /* Ensures the image fills the circular container */
+    height: auto; /* Maintains the aspect ratio of the image */
+  }
+  

@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height based on your design */
+    padding-top: 10px;
+    padding-bottom: 80px;
+    
+  }
+  
+  .card {
+    text-align: left; /* Align text inside the card to the left */
+    margin-top: 20px; /* Adjust the margin based on your design */
+    background-color: aquamarine;
+  }
+  

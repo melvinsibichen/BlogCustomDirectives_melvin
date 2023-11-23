@@ -1,0 +1,222 @@
+
+
+
+/* Blue Area */
+
+.card{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    // background-image: url(./images/bgimg.png);
+    opacity: 0.9;
+ }
+
+.card-body h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+   
+}
+
+/*searchbar starts*/
+
+.searching{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 10vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+   
+    width: 500px;
+    height: 50px;
+    display: flex;
+
+}
+form #search{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+   
+   
+}
+form .btn-btn{
+    background: #313233;
+    color: white;
+    padding: 20px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+
+/*searchbar ends*/
+
+.card-body p {
+    color: whitesmoke;    
+    text-align: center;
+    width: 60%;
+    padding-top: 3px;
+    line-height: 24px;
+    margin: 0 auto;   /*places the content center*/
+}
+
+.card a {
+    background-color: black;
+    border-radius: 0;
+    padding: 6px 34px;
+    margin-bottom: 40px;
+        margin-top: 20px;
+    text-align: center;
+    
+}
+
+
+
+
+/* white portion */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 0 0 calc(50% - 10px);
+    padding: 10px;
+}
+
+.container a {
+    border-radius: 0;
+    padding: 6px 34px;
+}
+
+
+/*CopyRight Portion*/
+.copyright {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 10px;
+}
+
+
+// page2
+
+
+
+.custom-logo i {
+    color: white;
+}
+
+
+.card-body {
+    background-color: rgb(137, 194, 51);
+    align-items: center;
+
+}
+
+.card-body h1 {
+    color: whitesmoke;
+    margin-top: 30px;
+
+}
+
+.card-body p {
+    color: whitesmoke;
+}
+
+.card-body a {
+    margin-bottom: 30px;
+}
+
+
+.white-portion h4 {
+    color: rgb(112, 112, 251);
+}
+
+.superior h3,
+.superior p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: bottom;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.superior h3 {
+    margin-top: 30px;
+
+}
+
+.orange-portion img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #fd7e14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-body-orange {
+    background-color:#fd7e14;
+    color:#000000;   
+}
+
+.orange-portion {
+    background-color: orange;
+
+}
+
+.orange-portion img {
+    margin-bottom: 10px;
+}
+
+.orange-portion p {
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* text-align: justify; */
+
+}
+
+.orange-portion a {
+    margin-bottom: 30px;
+}
+
+
+.testimonial {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.testimonial h5 {
+    text-align: center;
+    color: blue;
+}
+
+.testimonial p {
+    text-align: center;
+
+}
