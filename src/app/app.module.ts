@@ -25,9 +25,7 @@ import { AutofocusDirective } from './autofocus.directive';
     NavbarComponent,
     WildcardComponent,
     AboutComponent,
-
-    CustomDirectiveDirective,
- 
+    CustomDirectiveDirective, 
     AuthorComponent,
     LocationsComponent,
     HoverdirectiveDirective,
